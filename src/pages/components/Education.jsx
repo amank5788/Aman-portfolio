@@ -7,8 +7,8 @@ function Education() {
     {
       index: 1,
       education_logo_link: college_logo,
-      college_name: "D.Y. Patil College of Engineering",
-      college_degree_name: "B.E. in Information Technology",
+      college_name: "IIIT SONEPAT,HARYANA",
+      college_degree_name: "B.TECH in Information Technology",
       education_spam: "2020-Present",
       education_info: [
         {
@@ -28,7 +28,7 @@ function Education() {
         },
       ],
       btn_name: "Visit Website",
-      btn_link: "https://dypcoeakurdi.collpoll.com/home",
+      btn_link: "http://www.iiitsonepat.ac.in/",
     },
   ];
   return (

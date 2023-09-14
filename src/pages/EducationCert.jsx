@@ -7,7 +7,7 @@ const EducationCert = () => {
     <>
       <div className="educ_cert" id="my-background">
         <Education />
-        <Certificates />
+        
       </div>
     </>
   );

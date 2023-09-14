@@ -44,7 +44,7 @@ const Project_exp = () => {
                     target={e.proj_live_link !== '#' ? '_blank' : ''}
                     rel="noreferrer"
                   >
-                    <button className="proj_live">Live Project</button>
+                    
                   </a>
                 </div>
               </div>
