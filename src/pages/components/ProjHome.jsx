@@ -19,7 +19,7 @@ function ProjHome() {
           <Githubcomp
             backgroundColor="#512da8"
             shadow="0px 0px 13px rgb(255 255 255) "
-            href="https://github.com/ganraj21/Portfolio-Web-Application"
+            href="https://github.com/amank5788/Aman-portfolio"
           />
         </div>
         <div className="proj_right">
