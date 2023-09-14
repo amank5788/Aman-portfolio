@@ -9,14 +9,9 @@ import java_logo from "../../Image/logo_folder/java_logo.png";
 import javascript_logo from "../../Image/logo_folder/js_logo.png";
 import github_logo from "../../Image/logo_folder/github_logo.png";
 import mongodb_logo from "../../Image/logo_folder/mongodb_logo.png";
-import git_vcs_logo from "../../Image/logo_folder/git_vcs_logo.png";
-import material_logo from "../../Image/logo_folder/material_logo.png";
 import express_logo from "../../Image/logo_folder/express_logo.png";
 import vercel from "../../Image/logo_folder/vercel.svg";
-import typescript from "../../Image/logo_folder/typescript.png";
-import tailwindcss from "../../Image/logo_folder/tailwindcss.png";
 import redux from "../../Image/logo_folder/redux.png";
-import jira from "../../Image/logo_folder/jira.png";
 
 const my_skills_data = [
   {
@@ -37,81 +32,57 @@ const my_skills_data = [
   },
   {
     id: 4,
-    skill_name: "Typescript",
-    img_link: typescript,
-  },
-  {
-    id: 5,
     skill_name: "Node JS",
     img_link: node_logo,
   },
   {
-    id: 6,
+    id: 5,
     skill_name: "Express JS",
     img_link: express_logo,
   },
   {
-    id: 7,
+    id: 6,
     skill_name: "HTML5",
     img_link: html_logo,
   },
   {
-    id: 8,
+    id: 7,
     skill_name: "CSS3",
     img_link: css_logo,
   },
   {
-    id: 9,
-    skill_name: "Tailwind",
-    img_link: tailwindcss,
-  },
-  {
-    id: 10,
+    id: 8,
     skill_name: "Bootstrap",
     img_link: bootstrap_logo,
   },
   {
-    id: 11,
-    skill_name: "Material UI",
-    img_link: material_logo,
-  },
-  {
-    id: 12,
+    id: 9,
     skill_name: "MySQL",
     img_link: mysql_logo,
   },
   {
-    id: 13,
+    id: 10,
     skill_name: "Mongodb",
     img_link: mongodb_logo,
   },
   {
-    id: 14,
+    id: 11,
     skill_name: "Java",
     img_link: java_logo,
   },
   {
-    id: 15,
+    id: 12,
     skill_name: "GitHub",
     img_link: github_logo,
   },
+
   {
-    id: 16,
-    skill_name: "Git VCS",
-    img_link: git_vcs_logo,
-  },
-  {
-    id: 17,
-    skill_name: "Jira",
-    img_link: jira,
-  },
-  {
-    id: 18,
+    id: 13,
     skill_name: "Netlify",
     img_link: netlify_logo,
   },
   {
-    id: 19,
+    id: 14,
     skill_name: "Vercel",
     img_link: vercel,
   },

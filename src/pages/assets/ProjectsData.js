@@ -13,10 +13,10 @@ import landing_img from '../../Image/proj_imgs/landing_img.png';
 const proj_data = [
   {
     id: 1,
-    project_name: 'Dental-Clinic Web-Application',
-    proj_creation_date: 'Nov 2022',
+    project_name: 'g0-review',
+    proj_creation_date: 'june 2022',
     project_image: dental_img,
-    proj_code_like: 'https://github.com/ganraj21/Dental_Clinic',
+    proj_code_like: 'https://github.com/amank5788/go-review',
     proj_live_link: 'https://omdentalclinic.vercel.app/',
   },
   {
