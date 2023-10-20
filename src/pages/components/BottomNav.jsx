@@ -28,7 +28,7 @@ const BottomNav = () => {
                 to="/admin/login"
                 style={{ textDecoration: 'none', color: '#fff' }}
               >
-                <h3>Ganraj21 | Portfolio</h3>
+                <h3>Aman | Portfolio</h3>
               </HashLink>
             </div>
             <div className="bot_middle_info">
@@ -39,7 +39,7 @@ const BottomNav = () => {
               <p className="f_info">Follow me for more such Projects.</p>
             </div>
             <div>
-              <Githubcomp href="https://github.com/ganraj21" />
+              <Githubcomp href="https://github.com/amank5788" />
             </div>
           </div>
           <div className="bot_nav_middle">

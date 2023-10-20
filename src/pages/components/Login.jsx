@@ -8,8 +8,8 @@ import './Login.css';
 import Spinner from './Spinner';
 
 const Login = () => {
-  // const url = 'http://localhost:5000/admin/login';
-  const url = 'https://port-web-app.onrender.com/admin/login';
+   
+  // const url = 'https://port-web-app.onrender.com/admin/login';
   const [pvalue, setPvalue] = useState(0);
   const [admin, setAdmin] = useState({
     username: '',
@@ -38,26 +38,16 @@ const Login = () => {
     };
     console.log(checkOptions);
     try {
-      const res = await fetch(url, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(checkOptions),
-      });
-
-      console.log(res);
-      const data = await res.json();
-
-      setPvalue(0);
-      if (res.status === 201) {
-        toast.success(data.message, toastOptions);
-        console.log(data);
+      
+      if(checkOptions.username === 'Admin_aman' && checkOptions.password === '12345678'){
+        console.log('succsesfully loggedin');
         navigate('/user-backend');
-      } else {
+      }
+       else {
         toast.error('Invalid credentials', toastOptions);
         navigate('/admin/login'); // Navigate to another route for unsuccessful login
       }
+      setPvalue(0);
     } catch (error) {
       console.error('Error:', error);
       toast.error('An error occurred. Please try again later.', toastOptions);
