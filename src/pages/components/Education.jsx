@@ -14,7 +14,7 @@ function Education() {
         {
           index: 1,
           educ_info:
-            "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, Ml , OS etc.",
+            "⚡ I have studied  software engineering subjects like DS, Algorithms,Oops, DBMS, Ml , OS etc.",
         },
         {
           index: 2,
